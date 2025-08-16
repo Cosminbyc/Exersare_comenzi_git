@@ -41,6 +41,10 @@ function concatenare(param: string[]) : void {
     console.log(cuv);
 }
 
+function functie_pusa_in_git_stash(): void {
+    console.log("functie pusa in git stash");
+}
+
 concatenare(a);
 
 let s1: Student = new Student("nume_1", 20);
