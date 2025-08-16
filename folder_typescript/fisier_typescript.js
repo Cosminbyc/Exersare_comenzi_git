@@ -42,12 +42,12 @@ var Student = /** @class */ (function (_super) {
 //     console.log(a[i]);
 // }
 // a.forEach((item) => console.log(item));
-function concatenare(param) {
-    var cuv = "";
-    param.forEach(function (item) { return cuv = cuv + " " + item; });
-    cuv = cuv.trim();
-    console.log(cuv);
-}
-concatenare(a);
+// function concatenare(param: string[]) : void {
+//     let cuv = "";
+//     param.forEach((item) => cuv = cuv + " " + item);
+//     cuv = cuv.trim();
+//     console.log(cuv);
+// }
+// concatenare(a);
 var s1 = new Student("nume_1", 20);
 console.log(s1.getData());
