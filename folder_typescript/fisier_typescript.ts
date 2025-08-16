@@ -4,7 +4,7 @@ const a = ["apple", "apricot", "nuts", "pineapple", "blackberries"];
 //     console.log(a[i]);
 // }
 
-a.forEach((item) => console.log(item));
+// a.forEach((item) => console.log(item));
 
 function concatenare(param: string[]) : void {
     let cuv = "";
