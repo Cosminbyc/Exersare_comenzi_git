@@ -33,6 +33,7 @@ class Student extends Person {
 
 // a.forEach((item) => console.log(item));
 
+// afiseaza concatenarea elementelor din param
 function concatenare(param: string[]) : void {
     let cuv = "";
     param.forEach((item) => cuv = cuv + " " + item);

@@ -42,6 +42,7 @@ var Student = /** @class */ (function (_super) {
 //     console.log(a[i]);
 // }
 // a.forEach((item) => console.log(item));
+// afiseaza concatenarea elementelor din param
 function concatenare(param) {
     var cuv = "";
     param.forEach(function (item) { return cuv = cuv + " " + item; });
